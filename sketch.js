@@ -20,17 +20,17 @@ function setup() {
 	world = engine.world;
 
 	dground=new Ground();
-	stones=new Stone(100,460,23);
-	mango1=new Mango(600,290,34);
-	mango2=new Mango(855,325,35);
-	mango3=new Mango(670,260,35);
-	mango4=new Mango(730,200,35);
-	mango5=new Mango(710,320,36);
-	mango6=new Mango(780,250,35);
-	mango7=new Mango(825,170,33);
-	mango8=new Mango(880,260,35);
-	mango9=new Mango(940,220,35);
-	mango10=new Mango(980,305,35);
+	stones=new Stone(100,460,40);
+	mango1=new Mango(600,290,40);
+	mango2=new Mango(855,325,40);
+	mango3=new Mango(670,260,40);
+	mango4=new Mango(730,200,40);
+	mango5=new Mango(710,320,40);
+	mango6=new Mango(780,250,40);
+	mango7=new Mango(825,170,40);
+	mango8=new Mango(880,260,40);
+	mango9=new Mango(940,220,40);
+	mango10=new Mango(980,305,40);
 
 	attach=new Throw(stones.body,{x:100,y:465});
 
